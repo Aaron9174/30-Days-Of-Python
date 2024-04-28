@@ -109,8 +109,8 @@ full_stack = all_in.copy()
 print(f"Full stack developer needs to have proficiency in {full_stack} languages")
 reduxIndex = full_stack.index("Redux") + 1
 full_stack.insert(reduxIndex, "Python")
-reduxIndex += 1
-full_stack.insert(reduxIndex, "SQL")
+reduxIndex += 2
+full_stack.insert(re)
 print("Two additional languages certainly help.\nUpdating list...")
 print(f"New list: {full_stack}")
 print("\n")
